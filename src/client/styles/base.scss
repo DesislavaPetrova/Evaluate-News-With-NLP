@@ -1,0 +1,11 @@
+$primary-color: rgb(213,247,255);
+$secondary-color: rgb(255,193,80);
+$color-blue: rgb(19,136,227);
+$color-dark: #302a2c;
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: $color-dark;
+    background-color: $primary-color;
+    margin: 0;
+}

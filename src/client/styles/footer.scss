@@ -1,0 +1,19 @@
+$primary-color: rgb(213,247,255);
+$secondary-color: rgb(255,193,80);
+$color-blue: rgb(19,136,227);
+$color-dark: #302a2c;
+
+.ft {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    color: $color-dark;
+    background-color: $primary-color;
+    border-top: 2px solid $color-blue;
+    padding: 2em;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}

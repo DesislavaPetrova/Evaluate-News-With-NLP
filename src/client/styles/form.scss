@@ -1,0 +1,115 @@
+$primary-color: rgb(213,247,255);
+$secondary-color: rgb(255,193,80);
+$color-blue: rgb(19,136,227);
+$color-dark: #302a2c;
+
+.container {
+    padding: 20px 40px 40px;
+    max-width: 100%;
+    height: 25rem;
+
+    &_responsive {
+        max-width: 50%;
+        height: auto;
+        margin: 30px 30px 30px 30px;
+        float: right;
+    }
+
+    &_result {
+        display: inline;
+    }
+
+    &_text {
+        color: $color-dark;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        padding: 2px;
+        font-weight: 500;
+    }
+}
+
+form {
+    margin: 30px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    color: $secondary-color;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+input {
+    margin: 5px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid $color-blue;
+    font-size: 16px;
+} 
+
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    font-size: 18px;
+    width: 200px;
+    padding: 12px;
+    color: $color-blue;
+    border: 1px solid $color-blue;
+    border-radius: 5px;
+    background-color: $primary-color;
+
+    &:hover {
+        color: $color-blue;
+        cursor: pointer;
+        background-color: $secondary-color;
+        box-shadow: inset 0 100px 0 0 $secondary-color;
+    }
+}
+
+#results {
+    margin: 30px;
+    padding: 5px;
+    background-color: $primary-color;
+    font-size: 18px;
+    color: $color-dark;
+    line-height: 1.5em;
+
+    &_error {
+        text-decoration: underline $secondary-color;
+        font-style: italic;
+    }
+
+    &_card {
+        padding: 5px;
+    }
+}
+
+.analysis {
+    max-width: 100%;
+
+    &_text {
+        color: $color-dark;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        padding: 2px;
+        font-weight: 500;
+    }
+
+    &_type {
+        line-height: 1.5em;
+        padding: 2px;
+        text-decoration: underline $secondary-color;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $color-blue;
+    }
+
+    &_list {
+        line-height: 1.5em;
+    }
+}

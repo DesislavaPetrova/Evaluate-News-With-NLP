@@ -1,0 +1,26 @@
+$primary-color: rgb(213,247,255);
+$secondary-color: rgb(255,193,80);
+$color-blue: rgb(19,136,227);
+$color-dark: #302a2c;
+
+.hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    padding: 2em;
+    z-index: 500;
+    height: 8rem;
+
+    &_text {
+        display: flex;
+        font-family: 'Bungee Shade';
+        color: $color-blue;
+        text-shadow: 2px -2px $secondary-color;
+        font-size: 36px;
+        letter-spacing: 2px;
+        margin-right: 5rem;
+        margin-left: 5rem;
+        text-transform: uppercase;
+    }
+}
